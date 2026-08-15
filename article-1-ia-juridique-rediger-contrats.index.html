@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'IA juridique peut-elle rédiger vos contrats ? Ce que dit vraiment la loi | AssistantJuridique.ai</title>
+  <meta name="description" content="L'IA peut-elle rédiger des contrats valides juridiquement ? On fait le point sur ce qu'elle peut faire, ses limites légales, et comment l'utiliser intelligemment sans prendre de risques." />
+  <link rel="canonical" href="https://assistantjuridique.ai/blog/ia-juridique-rediger-contrats-loi" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f7f6f2; --surface: #ffffff; --border: #e2dfd6;
+      --accent: #1a3a5c; --accent-light: rgba(26,58,92,0.08);
+      --text: #2c2c2c; --muted: #888; --heading: #111;
+    }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; letter-spacing: -0.02em; }
+    .logo span { color: #888; font-weight: 400; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; margin-left: 2rem; transition: color 0.2s; }
+    nav a:hover { color: var(--text); }
+    .hero { max-width: 760px; margin: 4rem auto 0; padding: 0 2rem; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 2px; margin-bottom: 1.5rem; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.75rem); font-weight: 800; color: var(--heading); line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    article { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.45rem; font-weight: 700; color: var(--heading); margin: 3rem 0 1rem; letter-spacing: -0.02em; }
+    h3 { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--heading); margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 1.25rem; }
+    .disclaimer { background: #fff8e1; border-left: 3px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 0 4px 4px 0; margin: 2rem 0; font-size: 0.9rem; color: #78580a; }
+    .can-do { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; margin: 2rem 0; }
+    .can-do-header { background: var(--accent); color: white; padding: 0.75rem 1.5rem; font-family: 'Syne', sans-serif; font-weight: 600; font-size: 0.9rem; letter-spacing: 0.04em; }
+    .can-do-header.red { background: #c0392b; }
+    .can-do ul { list-style: none; padding: 1.25rem 1.5rem; }
+    .can-do ul li { padding: 0.5rem 0; font-size: 0.95rem; border-bottom: 1px solid var(--border); }
+    .can-do ul li:last-child { border-bottom: none; }
+    .can-do ul li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+    .can-do ul li.no::before { content: "✗ "; color: #c0392b; }
+    blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; color: var(--muted); font-style: italic; background: var(--surface); }
+    .cta-box { background: var(--accent); color: white; border-radius: 6px; padding: 2.5rem; text-align: center; margin: 4rem 0 2rem; }
+    .cta-box h3 { font-family: 'Syne', sans-serif; font-size: 1.4rem; margin-top: 0; margin-bottom: 0.75rem; color: white; }
+    .cta-box p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background: white; color: var(--accent); font-weight: 700; font-size: 0.95rem; padding: 0.85rem 2rem; border-radius: 3px; text-decoration: none; transition: opacity 0.2s; }
+    .btn:hover { opacity: 0.9; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) { header { padding: 1rem; } nav { display: none; } .hero, article { padding-left: 1.25rem; padding-right: 1.25rem; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">assistant<span>juridique</span>.ai</a>
+  <nav>
+    <a href="/blog">Blog</a>
+    <a href="/newsletter">Newsletter</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="tag">IA & Droit</div>
+  <h1>L'IA juridique peut-elle rédiger vos contrats ? Ce que dit vraiment la loi</h1>
+  <p class="meta">Août 2025 &nbsp;·&nbsp; 7 min de lecture</p>
+</div>
+
+<article>
+
+  <div class="disclaimer">
+    <strong>Note :</strong> Cet article est fourni à titre informatif uniquement et ne constitue pas un conseil juridique. Pour toute situation spécifique, consultez un avocat qualifié.
+  </div>
+
+  <p>La question revient dans toutes les conversations sur l'IA en entreprise : <strong>peut-on vraiment confier la rédaction de ses contrats à une IA ?</strong> La réponse courte est : oui, en partie — mais avec des nuances importantes qui déterminent si vous économisez du temps ou si vous créez des problèmes.</p>
+
+  <p>Voici ce que vous devez savoir concrètement, sans vous noyer dans le jargon juridique ou technologique.</p>
+
+  <h2>Ce que l'IA fait déjà très bien</h2>
+
+  <p>Les modèles de langage actuels ont été entraînés sur des volumes considérables de documents juridiques — jurisprudence, doctrine, contrats types, textes législatifs. Sur les tâches bien balisées, leur performance est réelle.</p>
+
+  <div class="can-do">
+    <div class="can-do-header">Ce que l'IA juridique gère efficacement</div>
+    <ul>
+      <li>Rédiger des contrats types à partir de modèles (CGV, NDA, contrats de prestation)</li>
+      <li>Adapter un modèle existant à une situation standard</li>
+      <li>Vérifier la présence de clauses obligatoires</li>
+      <li>Expliquer des termes juridiques en langage courant</li>
+      <li>Identifier des incohérences dans un document existant</li>
+      <li>Comparer deux versions d'un contrat et lister les différences</li>
+      <li>Générer des mentions légales et politiques de confidentialité standard</li>
+    </ul>
+  </div>
+
+  <h2>Ce que l'IA ne peut pas faire (et ne fera pas de sitôt)</h2>
+
+  <div class="can-do">
+    <div class="can-do-header red">Limites réelles de l'IA juridique</div>
+    <ul>
+      <li class="no">Donner un conseil juridique personnalisé au sens légal du terme</li>
+      <li class="no">Garantir la validité d'un contrat dans toutes les juridictions</li>
+      <li class="no">Anticiper les évolutions jurisprudentielles récentes</li>
+      <li class="no">Gérer des situations juridiquement complexes ou conflictuelles</li>
+      <li class="no">Représenter votre intérêt face à une partie adverse</li>
+      <li class="no">Engager sa responsabilité professionnelle si quelque chose tourne mal</li>
+    </ul>
+  </div>
+
+  <p>Ce dernier point est crucial. Un avocat engage sa responsabilité professionnelle sur les conseils qu'il donne — il est couvert par une assurance, soumis à déontologie, sanctionnable par son ordre. Une IA n'engage rien. Si un contrat rédigé par IA vous cause un préjudice, vous n'avez pas de recours contre l'IA ou son éditeur (les CGU de ces services l'indiquent généralement très clairement).</p>
+
+  <h2>Ce que dit la réglementation française</h2>
+
+  <p>En France, le conseil juridique est une activité réglementée. La loi du 31 décembre 1971 réserve la consultation juridique et la rédaction d'actes sous seing privé aux professions juridiques réglementées (avocats, notaires, huissiers, etc.) dans le cadre de leur activité professionnelle.</p>
+
+  <p>Une IA qui "rédige un contrat" n'exerce pas le conseil juridique au sens de cette loi — elle génère du texte. La frontière devient floue quand l'outil prétend fournir un "avis juridique personnalisé". Les éditeurs d'outils sérieux sont bien conscients de cette limite et formulent leurs services en conséquence.</p>
+
+  <blockquote>"L'IA juridique est un outil de productivité, pas un substitut au juriste. La distinction n'est pas technique — elle est légale et pratique."</blockquote>
+
+  <h2>La bonne utilisation en pratique</h2>
+
+  <h3>Pour une TPE/PME sans service juridique interne</h3>
+  <p>L'IA est un excellent premier filtre. Elle vous permet de produire un premier jet de contrat, de vérifier que vous n'avez pas oublié de clause évidente, et de comprendre ce que vous signez. Pour des contrats courants (CGV, contrats de prestation standard, NDAs simples), le risque est limité si le montant en jeu est faible et la relation avec votre partenaire est établie.</p>
+  <p>Pour tout contrat significatif — en valeur, en durée, ou en enjeu stratégique — une relecture par un avocat reste indispensable. Et avec un premier jet rédigé par IA, cette relecture prend 30 minutes au lieu de 3 heures. <strong>C'est là que l'économie réelle se fait.</strong></p>
+
+  <h3>Pour un professionnel du droit</h3>
+  <p>L'IA démultiplie la capacité de production. Un avocat qui utilisait deux heures pour rédiger un contrat type peut en produire cinq dans le même temps, en conservant la vérification et la personnalisation — les tâches à réelle valeur ajoutée.</p>
+
+  <h2>Les outils à connaître en 2025</h2>
+
+  <p>Plusieurs acteurs proposent des assistants juridiques IA en français : <strong>Lexia</strong>, <strong>Doctrine.fr</strong> (pour la recherche jurisprudentielle), et des intégrations spécialisées construites sur les API d'Anthropic ou OpenAI. Pour la rédaction de documents courants, les LLM généralistes comme Claude ou GPT-4 donnent déjà des résultats utilisables si vous savez les briefer correctement.</p>
+
+  <p>La qualité du résultat dépend moins du modèle que de la qualité des instructions que vous lui donnez — ce qu'on appelle le prompt engineering juridique.</p>
+
+  <div class="cta-box">
+    <h3>L'IA juridique expliquée chaque semaine</h3>
+    <p>Contrats, conformité, RGPD — ce que l'IA peut faire pour vous, et ce qu'elle ne peut pas faire. Sans jargon.</p>
+    <a href="/newsletter" class="btn">Rejoindre la newsletter →</a>
+  </div>
+
+</article>
+
+<footer>
+  <p>© 2025 AssistantJuridique.ai — Tous droits réservés &nbsp;·&nbsp; Contenu informatif, non constitutif de conseil juridique</p>
+</footer>
+
+</body>
+</html>
