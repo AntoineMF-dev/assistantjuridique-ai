@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGV, mentions légales, RGPD : générer ses documents juridiques avec l'IA | AssistantJuridique.ai</title>
+  <meta name="description" content="Guide pratique pour générer vos CGV, mentions légales et politique RGPD avec l'IA. Ce qui est possible, les précautions à prendre, les outils recommandés." />
+  <link rel="canonical" href="https://assistantjuridique.ai/blog/cgv-mentions-legales-rgpd-ia" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #f7f6f2; --surface: #ffffff; --border: #e2dfd6; --accent: #1a3a5c; --accent-light: rgba(26,58,92,0.08); --text: #2c2c2c; --muted: #888; --heading: #111; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .logo span { color: #888; font-weight: 400; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; margin-left: 2rem; }
+    .hero { max-width: 760px; margin: 4rem auto 0; padding: 0 2rem; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 2px; margin-bottom: 1.5rem; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.75rem); font-weight: 800; color: var(--heading); line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    article { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.45rem; font-weight: 700; color: var(--heading); margin: 3rem 0 1rem; }
+    h3 { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--heading); margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 1.25rem; }
+    .disclaimer { background: #fff8e1; border-left: 3px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 0 4px 4px 0; margin: 2rem 0; font-size: 0.9rem; color: #78580a; }
+    .doc-block { background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 1.75rem; margin: 1.5rem 0; }
+    .doc-title { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--heading); font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .doc-level { font-size: 0.8rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 2px; margin-bottom: 1rem; display: inline-block; }
+    .level-easy { background: #e8f5e9; color: #2e7d32; }
+    .level-medium { background: #fff8e1; color: #f57f17; }
+    .level-hard { background: #fce4ec; color: #c62828; }
+    .prompt-box { background: var(--accent-light); border-radius: 4px; padding: 1.25rem; margin: 1rem 0; font-family: monospace; font-size: 0.9rem; color: var(--accent); }
+    blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; color: var(--muted); font-style: italic; background: var(--surface); }
+    .cta-box { background: var(--accent); color: white; border-radius: 6px; padding: 2.5rem; text-align: center; margin: 4rem 0 2rem; }
+    .cta-box h3 { font-family: 'Syne', sans-serif; font-size: 1.4rem; color: white; margin: 0 0 0.75rem; }
+    .cta-box p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background: white; color: var(--accent); font-weight: 700; padding: 0.85rem 2rem; border-radius: 3px; text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) { nav { display: none; } .hero, article { padding-left: 1.25rem; padding-right: 1.25rem; } }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/" class="logo">assistant<span>juridique</span>.ai</a>
+  <nav><a href="/blog">Blog</a><a href="/newsletter">Newsletter</a></nav>
+</header>
+<div class="hero">
+  <div class="tag">Documents juridiques</div>
+  <h1>CGV, mentions légales, RGPD : générer ses documents juridiques avec l'IA</h1>
+  <p class="meta">Août 2025 &nbsp;·&nbsp; 7 min de lecture</p>
+</div>
+<article>
+  <div class="disclaimer"><strong>Note :</strong> Cet article est informatif et ne constitue pas un conseil juridique. Pour toute situation spécifique, consultez un professionnel qualifié.</div>
+
+  <p>Pour une TPE ou une PME qui lance un site web ou un service en ligne, trois documents juridiques sont incontournables : les mentions légales, les conditions générales de vente (CGV), et la politique de confidentialité RGPD. Traditionnellement, ces documents coûtaient entre 500€ et 2000€ en honoraires d'avocat. L'IA change cette équation — mais avec des nuances importantes.</p>
+
+  <h2>Document par document</h2>
+
+  <div class="doc-block">
+    <div class="doc-title">Les mentions légales</div>
+    <span class="doc-level level-easy">✓ Très bien géré par l'IA</span>
+    <p>Les mentions légales sont les plus simples à générer : elles suivent un format standard imposé par la loi (LCEN) et contiennent des informations factuelles sur l'éditeur du site. L'IA génère un document conforme en quelques secondes à partir de vos informations (raison sociale, SIRET, hébergeur, directeur de publication).</p>
+    <div class="prompt-box">Prompt efficace : "Génère les mentions légales pour mon site [URL]. Éditeur : [nom/raison sociale], [adresse], SIRET [numéro]. Hébergeur : [nom hébergeur]. Directeur de publication : [nom]. Activité : [description courte]."</div>
+  </div>
+
+  <div class="doc-block">
+    <div class="doc-title">La politique de confidentialité RGPD</div>
+    <span class="doc-level level-medium">⚠ Bien géré, à adapter selon vos traitements</span>
+    <p>L'IA génère une politique de confidentialité conforme au RGPD, incluant les mentions obligatoires : responsable de traitement, finalités, bases légales, durées de conservation, droits des personnes, coordonnées du DPO si applicable. Le document de base est solide — mais doit être personnalisé selon vos traitements réels (newsletter, analytics, cookies, formulaires).</p>
+    <div class="prompt-box">Prompt efficace : "Génère une politique de confidentialité RGPD pour [description activité]. Données collectées : [liste]. Outils utilisés : [Google Analytics / Stripe / Mailchimp...]. Durée de conservation : [X mois]. Pas de DPO désigné. Public : professionnels français."</div>
+  </div>
+
+  <div class="doc-block">
+    <div class="doc-title">Les CGV (Conditions Générales de Vente)</div>
+    <span class="doc-level level-medium">⚠ Géré correctement pour les cas standard</span>
+    <p>Les CGV sont plus complexes car elles dépendent fortement de votre modèle commercial : vente de produits physiques, services, abonnements, marketplace. L'IA génère un document solide pour les cas standard B2B ou B2C, mais les clauses spécifiques à votre secteur (garanties, responsabilité, propriété intellectuelle) méritent une relecture attentive.</p>
+    <div class="prompt-box">Prompt efficace : "Génère des CGV pour [type d'activité]. Modèle : [B2B/B2C]. Produit/service : [description]. Prix : [HT/TTC]. Paiement : [conditions]. Livraison : [délais/zone]. Droit applicable : droit français. Tribunal compétent : [ville]."</div>
+  </div>
+
+  <h2>Ce que l'IA ne peut pas faire seule</h2>
+  <p>Pour des situations spécifiques — place de marché avec plusieurs vendeurs, traitement de données sensibles, activité réglementée (finance, santé, éducation), vente internationale complexe — les documents génériques ne suffisent pas. L'IA peut produire un premier jet utile, mais une relecture par un juriste reste nécessaire.</p>
+
+  <blockquote>"Un document juridique généré par IA est un excellent point de départ. Ce n'est pas une fin en soi."</blockquote>
+
+  <h2>Le bon workflow en pratique</h2>
+  <p>Utilisez l'IA pour produire le premier jet en 10 minutes. Relisez pour vérifier que les informations spécifiques à votre activité sont correctement reflétées. Pour les documents à faible enjeu (mentions légales, politique de confidentialité standard), le résultat est souvent directement utilisable. Pour les CGV, une relecture par un avocat — qui prend 30 minutes au lieu de 3 heures — reste recommandée pour tout contrat significatif.</p>
+
+  <div class="cta-box">
+    <h3>L'IA juridique expliquée chaque semaine</h3>
+    <p>Cas pratiques, outils, limites légales — sans jargon.</p>
+    <a href="/newsletter" class="btn">Rejoindre la newsletter →</a>
+  </div>
+</article>
+<footer><p>© 2025 AssistantJuridique.ai — Tous droits réservés &nbsp;·&nbsp; Contenu informatif, non constitutif de conseil juridique</p></footer>
+</body>
+</html>
