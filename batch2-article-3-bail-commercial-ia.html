@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'IA peut-elle analyser un bail commercial ? Test et limites | AssistantJuridique.ai</title>
+  <meta name="description" content="Test concret de l'analyse d'un bail commercial par IA : ce qu'elle détecte bien, ce qu'elle rate, et pourquoi ce document reste sensible." />
+  <link rel="canonical" href="https://assistantjuridique.ai/blog/ia-analyser-bail-commercial-test" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #f7f6f2; --surface: #ffffff; --border: #e2dfd6; --accent: #1a3a5c; --accent-light: rgba(26,58,92,0.08); --text: #2c2c2c; --muted: #888; --heading: #111; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .logo span { color: #888; font-weight: 400; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; margin-left: 2rem; }
+    .hero { max-width: 760px; margin: 4rem auto 0; padding: 0 2rem; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 2px; margin-bottom: 1.5rem; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.75rem); font-weight: 800; color: var(--heading); line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    article { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.45rem; font-weight: 700; color: var(--heading); margin: 3rem 0 1rem; }
+    h3 { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--heading); margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 1.25rem; }
+    .disclaimer { background: #fff8e1; border-left: 3px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 0 4px 4px 0; margin: 2rem 0; font-size: 0.9rem; color: #78580a; }
+    blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; color: var(--muted); font-style: italic; background: var(--surface); }
+    .score-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2rem 0; }
+    .score-card { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 1.25rem; }
+    .score-label { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .score-title { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--heading); font-size: 0.95rem; margin-bottom: 0.4rem; }
+    .score-val { font-size: 1.5rem; font-weight: 800; font-family: 'Syne', sans-serif; }
+    .score-val.good { color: #2e7d32; }
+    .score-val.medium { color: #f57f17; }
+    .score-val.bad { color: #c62828; }
+    .cta-box { background: var(--accent); color: white; border-radius: 6px; padding: 2.5rem; text-align: center; margin: 4rem 0 2rem; }
+    .cta-box h3 { font-family: 'Syne', sans-serif; font-size: 1.4rem; color: white; margin: 0 0 0.75rem; }
+    .cta-box p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background: white; color: var(--accent); font-weight: 700; padding: 0.85rem 2rem; border-radius: 3px; text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) { .score-grid { grid-template-columns: 1fr; } nav { display: none; } .hero, article { padding-left: 1.25rem; padding-right: 1.25rem; } }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/" class="logo">assistant<span>juridique</span>.ai</a>
+  <nav><a href="/">Accueil</a><a href="/newsletter">Newsletter</a></nav>
+</header>
+<div class="hero">
+  <div class="tag">Test IA juridique</div>
+  <h1>L'IA peut-elle analyser un bail commercial ? Test et limites</h1>
+  <p class="meta">Août 2025 &nbsp;·&nbsp; 6 min de lecture</p>
+</div>
+<article>
+  <div class="disclaimer"><strong>Note :</strong> Cet article est informatif et ne constitue pas un conseil juridique.</div>
+
+  <p>Le bail commercial est l'un des documents les plus importants qu'une entreprise signe — et l'un des plus complexes du droit français. Nous avons testé plusieurs LLM sur l'analyse d'un bail commercial type pour évaluer leur capacité à identifier les clauses sensibles et les points d'attention.</p>
+
+  <h2>Les résultats par dimension</h2>
+  <div class="score-grid">
+    <div class="score-card">
+      <div class="score-label">Identification des clauses</div>
+      <div class="score-title">Structure et organisation</div>
+      <div class="score-val good">Bon</div>
+    </div>
+    <div class="score-card">
+      <div class="score-label">Analyse financière</div>
+      <div class="score-title">Loyer, indexation, charges</div>
+      <div class="score-val good">Bon</div>
+    </div>
+    <div class="score-card">
+      <div class="score-label">Droits du locataire</div>
+      <div class="score-title">Renouvellement, résiliation</div>
+      <div class="score-val medium">Moyen</div>
+    </div>
+    <div class="score-card">
+      <div class="score-label">Clauses atypiques</div>
+      <div class="score-title">Dérogations, clauses abusives</div>
+      <div class="score-val bad">Faible</div>
+    </div>
+  </div>
+
+  <h2>Ce que l'IA détecte bien</h2>
+  <p>Sur la structure standard d'un bail commercial, l'IA fait un travail correct : elle identifie la durée, les conditions de renouvellement, le montant du loyer et son indexation, les charges réparties, les conditions de résiliation. Elle peut produire un résumé clair d'un document de 30 pages en quelques minutes — c'est déjà une aide significative pour une première lecture.</p>
+
+  <h2>Les angles morts critiques</h2>
+  <h3>Les clauses dérogeant au statut des baux commerciaux</h3>
+  <p>Le statut des baux commerciaux est d'ordre public pour certaines dispositions, mais des dérogations sont possibles sur d'autres points. L'IA a du mal à identifier les clauses qui dérogent défavorablement au locataire de manière légale mais risquée.</p>
+
+  <h3>L'indexation et ses pièges</h3>
+  <p>Les clauses d'indexation du loyer peuvent être rédigées de manière à favoriser fortement le bailleur sur le long terme. L'IA lit la clause mais ne projette pas toujours l'impact financier sur 9 ans — la durée standard d'un bail commercial.</p>
+
+  <h3>Les obligations de travaux</h3>
+  <p>Les clauses relatives aux travaux et à leur répartition entre bailleur et preneur sont souvent rédigées de manière ambiguë. C'est un terrain de litige fréquent que l'IA identifie rarement comme risqué.</p>
+
+  <blockquote>"Pour un bail commercial, l'IA est utile pour comprendre le document. La négociation et la validation restent affaires de spécialistes."</blockquote>
+
+  <h2>Notre verdict</h2>
+  <p>Utiliser l'IA pour comprendre un bail commercial avant une réunion avec votre avocat ou votre expert-comptable : excellent usage, gain de temps réel. Signer un bail commercial en se basant uniquement sur une analyse IA : risque élevé. Le bail commercial engage une entreprise pour 9 ans minimum — c'est le document qui mérite le plus une expertise humaine.</p>
+
+  <div class="cta-box">
+    <h3>L'IA juridique testée chaque semaine</h3>
+    <p>Tests concrets, cas pratiques, sans langue de bois.</p>
+    <a href="/" class="btn">Rejoindre la newsletter →</a>
+  </div>
+</article>
+<footer><p>© 2025 AssistantJuridique.ai — Tous droits réservés &nbsp;·&nbsp; Contenu informatif, non constitutif de conseil juridique</p></footer>
+</body>
+</html>

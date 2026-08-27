@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Licenciement : ce que l'IA peut préparer, ce que l'avocat doit faire | AssistantJuridique.ai</title>
+  <meta name="description" content="Procédure de licenciement et IA : répartition des rôles, documents automatisables, étapes critiques qui nécessitent un avocat. Guide pratique pour PME." />
+  <link rel="canonical" href="https://assistantjuridique.ai/blog/licenciement-ia-avocat-roles" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #f7f6f2; --surface: #ffffff; --border: #e2dfd6; --accent: #1a3a5c; --accent-light: rgba(26,58,92,0.08); --text: #2c2c2c; --muted: #888; --heading: #111; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .logo span { color: #888; font-weight: 400; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; margin-left: 2rem; }
+    .hero { max-width: 760px; margin: 4rem auto 0; padding: 0 2rem; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 2px; margin-bottom: 1.5rem; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.75rem); font-weight: 800; color: var(--heading); line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    article { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.45rem; font-weight: 700; color: var(--heading); margin: 3rem 0 1rem; }
+    p { margin-bottom: 1.25rem; }
+    .disclaimer { background: #fff8e1; border-left: 3px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 0 4px 4px 0; margin: 2rem 0; font-size: 0.9rem; color: #78580a; }
+    .timeline { display: flex; flex-direction: column; gap: 1px; background: var(--border); border-radius: 6px; overflow: hidden; margin: 2rem 0; }
+    .timeline-step { background: var(--surface); padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; }
+    .step-num { font-family: 'Syne', sans-serif; font-weight: 800; color: var(--accent); font-size: 1.1rem; }
+    .step-content h3 { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--heading); font-size: 0.95rem; margin: 0 0 0.2rem; }
+    .step-content p { font-size: 0.85rem; color: var(--muted); margin: 0; }
+    .step-badge { font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 2px; white-space: nowrap; }
+    .badge-ia { background: var(--accent-light); color: var(--accent); }
+    .badge-avocat { background: #fce4ec; color: #c62828; }
+    .badge-both { background: #fff8e1; color: #f57f17; }
+    blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; color: var(--muted); font-style: italic; background: var(--surface); }
+    .cta-box { background: var(--accent); color: white; border-radius: 6px; padding: 2.5rem; text-align: center; margin: 4rem 0 2rem; }
+    .cta-box h3 { font-family: 'Syne', sans-serif; font-size: 1.4rem; color: white; margin: 0 0 0.75rem; }
+    .cta-box p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background: white; color: var(--accent); font-weight: 700; padding: 0.85rem 2rem; border-radius: 3px; text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) { .timeline-step { grid-template-columns: auto 1fr; } .step-badge { display: none; } nav { display: none; } .hero, article { padding-left: 1.25rem; padding-right: 1.25rem; } }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/" class="logo">assistant<span>juridique</span>.ai</a>
+  <nav><a href="/">Accueil</a><a href="/newsletter">Newsletter</a></nav>
+</header>
+<div class="hero">
+  <div class="tag">Droit social</div>
+  <h1>Licenciement : ce que l'IA peut préparer, ce que l'avocat doit faire</h1>
+  <p class="meta">Août 2025 &nbsp;·&nbsp; 7 min de lecture</p>
+</div>
+<article>
+  <div class="disclaimer"><strong>Note :</strong> Cet article est informatif et ne constitue pas un conseil juridique. La procédure de licenciement est encadrée par des règles strictes — consultez un avocat en droit social pour tout licenciement.</div>
+
+  <p>La procédure de licenciement est l'une des plus formalisées du droit du travail français. Une erreur de procédure — délai non respecté, mention manquante, convocation mal rédigée — peut transformer un licenciement légitime en licenciement sans cause réelle et sérieuse. L'IA peut aider sur certaines étapes, mais plusieurs points nécessitent impérativement une expertise humaine.</p>
+
+  <h2>La procédure étape par étape</h2>
+  <div class="timeline">
+    <div class="timeline-step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <h3>Vérification de la cause et de la procédure applicable</h3>
+        <p>Cause réelle et sérieuse, faute grave, inaptitude, motif économique — chaque cause a sa procédure</p>
+      </div>
+      <div class="step-badge badge-avocat">Avocat</div>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <h3>Rédaction de la convocation à entretien préalable</h3>
+        <p>Mentions obligatoires : objet, date, heure, lieu, possibilité d'assistance</p>
+      </div>
+      <div class="step-badge badge-ia">IA possible</div>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <h3>Conduite de l'entretien préalable</h3>
+        <p>Présentation des motifs, recueil des explications du salarié</p>
+      </div>
+      <div class="step-badge badge-both">Humain</div>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <h3>Rédaction de la lettre de licenciement</h3>
+        <p>Énonciation précise des motifs — document le plus important de la procédure</p>
+      </div>
+      <div class="step-badge badge-avocat">Avocat</div>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">5</div>
+      <div class="step-content">
+        <h3>Calcul des indemnités</h3>
+        <p>Indemnité légale ou conventionnelle, préavis, congés payés</p>
+      </div>
+      <div class="step-badge badge-ia">IA possible</div>
+    </div>
+    <div class="timeline-step">
+      <div class="step-num">6</div>
+      <div class="step-content">
+        <h3>Documents de fin de contrat</h3>
+        <p>Solde de tout compte, attestation Pôle Emploi, certificat de travail</p>
+      </div>
+      <div class="step-badge badge-ia">IA possible</div>
+    </div>
+  </div>
+
+  <h2>Pourquoi la lettre de licenciement est critique</h2>
+  <p>La lettre de licenciement fixe les limites du litige en cas de contentieux. Les motifs énoncés dans la lettre sont les seuls qui peuvent être invoqués devant le conseil de prud'hommes. Une lettre trop vague, trop générale, ou qui énonce des motifs insuffisamment caractérisés expose à une condamnation même si le licenciement était justifié dans les faits. C'est précisément là que l'IA montre ses limites : générer une lettre type est facile, adapter précisément les motifs à une situation réelle pour qu'ils soient inattaquables nécessite un juriste.</p>
+
+  <blockquote>"En matière de licenciement, la forme est aussi importante que le fond. Une procédure parfaite pour un motif légitime peut quand même être sanctionnée si un délai a été manqué."</blockquote>
+
+  <div class="cta-box">
+    <h3>L'IA juridique expliquée chaque semaine</h3>
+    <p>Droit social, contrats, conformité — sans jargon.</p>
+    <a href="/" class="btn">Rejoindre la newsletter →</a>
+  </div>
+</article>
+<footer><p>© 2025 AssistantJuridique.ai — Tous droits réservés &nbsp;·&nbsp; Contenu informatif, non constitutif de conseil juridique</p></footer>
+</body>
+</html>
