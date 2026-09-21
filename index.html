@@ -41,8 +41,9 @@
     .input::placeholder { color: #aaa; }
     .sib-form-block__button { width: 100%; background: white !important; color: var(--accent) !important; font-family: 'Syne', sans-serif !important; font-size: 1rem !important; font-weight: 700 !important; padding: 0.9rem !important; border-radius: 4px !important; cursor: pointer; border: none !important; }
     .articles { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
-    .articles h2 { font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--heading); margin-bottom: 2rem; }
-    .article-list { display: flex; flex-direction: column; gap: 1px; background: var(--border); border-radius: 6px; overflow: hidden; }
+    .articles h2 { font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--heading); margin-bottom: 0.5rem; }
+    .batch-label { font-size: 0.75rem; color: var(--muted); margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .article-list { display: flex; flex-direction: column; gap: 1px; background: var(--border); border-radius: 6px; overflow: hidden; margin-bottom: 2rem; }
     .article-item { background: var(--surface); padding: 1.25rem 1.5rem; display: flex; align-items: center; justify-content: space-between; text-decoration: none; transition: background 0.2s; gap: 1rem; }
     .article-item:hover { background: #f0ede8; }
     .article-title { font-family: 'Syne', sans-serif; font-weight: 600; color: var(--heading); font-size: 0.95rem; }
@@ -63,9 +64,9 @@
   <p class="subtitle">Contrats, conformité, RGPD — ce que l'IA peut faire pour vous, et ce qu'elle ne peut pas faire. Sans jargon. Une newsletter hebdomadaire.</p>
 </div>
 <div class="value-props">
-  <div class="prop"><div class="prop-icon">⚖️</div><h3>Honnête</h3><p>On vous dit aussi ce que l'IA ne peut pas faire — et pourquoi c'est important.</p></div>
-  <div class="prop"><div class="prop-icon">📄</div><h3>Pratique</h3><p>CGV, RGPD, contrats — des cas concrets pour TPE et PME, pas de théorie.</p></div>
-  <div class="prop"><div class="prop-icon">💶</div><h3>Économique</h3><p>Comment réduire votre facture juridique de 30 à 50% avec les bons outils.</p></div>
+  <div class="prop"><div class="prop-icon">⚖️</div><h3>Honnête</h3><p>On vous dit aussi ce que l'IA ne peut pas faire.</p></div>
+  <div class="prop"><div class="prop-icon">📄</div><h3>Pratique</h3><p>Cas concrets pour TPE et PME, pas de théorie.</p></div>
+  <div class="prop"><div class="prop-icon">💶</div><h3>Économique</h3><p>Réduire votre facture juridique de 30 à 50%.</p></div>
 </div>
 <div class="newsletter-block" id="newsletter">
   <h2>Rejoindre la newsletter</h2>
@@ -87,6 +88,30 @@
 </div>
 <div class="articles" id="articles">
   <h2>Tous les articles</h2>
+  <p class="batch-label">Septembre 2025 — Nouveaux</p>
+  <div class="article-list">
+    <a href="/batch3-article-1-signature-electronique-valeur-juridique.html" class="article-item">
+      <span class="article-title">Signature électronique et valeur juridique en France : ce que dit la loi</span>
+      <span class="article-arrow">→</span>
+    </a>
+    <a href="/batch3-article-2-ia-rediger-statuts-societe.html" class="article-item">
+      <span class="article-title">L'IA peut-elle rédiger vos statuts de société ? Test complet</span>
+      <span class="article-arrow">→</span>
+    </a>
+    <a href="/batch3-article-3-sous-traitance-responsabilite-clauses.html" class="article-item">
+      <span class="article-title">Sous-traitance et responsabilité : les clauses que l'IA oublie souvent</span>
+      <span class="article-arrow">→</span>
+    </a>
+    <a href="/batch3-article-4-ia-avocats-facturer-moins-cher.html" class="article-item">
+      <span class="article-title">Comment l'IA aide les avocats à facturer moins cher leurs clients</span>
+      <span class="article-arrow">→</span>
+    </a>
+    <a href="/batch3-article-5-protection-donnees-rh-pme.html" class="article-item">
+      <span class="article-title">Protection des données personnelles en RH : ce que les PME doivent savoir</span>
+      <span class="article-arrow">→</span>
+    </a>
+  </div>
+  <p class="batch-label">Août 2025</p>
   <div class="article-list">
     <a href="/batch2-article-1-contrat-freelance-ia.html" class="article-item">
       <span class="article-title">Contrat de freelance : ce que l'IA rédige bien et ce qu'elle rate</span>
@@ -108,6 +133,10 @@
       <span class="article-title">Les outils IA juridiques testés en 2025 : comparatif honnête</span>
       <span class="article-arrow">→</span>
     </a>
+    <a href="/article-1-ia-juridique-rediger-contrats.html" class="article-item">
+      <span class="article-title">L'IA juridique peut-elle rédiger vos contrats ? Ce que dit vraiment la loi</span>
+      <span class="article-arrow">→</span>
+    </a>
     <a href="/article-2-taches-juridiques-ia-assistant-rh.html" class="article-item">
       <span class="article-title">5 tâches juridiques que l'IA fait déjà mieux qu'un assistant RH</span>
       <span class="article-arrow">→</span>
@@ -122,10 +151,6 @@
     </a>
     <a href="/article-5-limites-ia-juridique.html" class="article-item">
       <span class="article-title">Les limites de l'IA juridique : ce qu'elle ne remplacera jamais</span>
-      <span class="article-arrow">→</span>
-    </a>
-    <a href="/article-1-ia-juridique-rediger-contrats.html" class="article-item">
-      <span class="article-title">L'IA juridique peut-elle rédiger vos contrats ? Ce que dit vraiment la loi</span>
       <span class="article-arrow">→</span>
     </a>
   </div>
