@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checklist RGPD PME : 10 points à vérifier (sources CNIL)</title>
+  <meta name="description" content="Les 7 étapes de la check-list CNIL pour TPE et PME, regroupées en 10 points concrets : fichiers, durées de conservation, registre, droits, sécurité et limites." />
+  <link rel="canonical" href="https://assistantjuridique.ai/checklist-rgpd-pme-10-points.html" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #f7f6f2; --surface: #ffffff; --border: #e2dfd6; --accent: #1a3a5c; --accent-light: rgba(26,58,92,0.08); --text: #2c2c2c; --muted: #888; --heading: #111; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .logo span { color: #888; font-weight: 400; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; margin-left: 2rem; }
+    .hero { max-width: 760px; margin: 4rem auto 0; padding: 0 2rem; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 2px; margin-bottom: 1.5rem; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.75rem); font-weight: 800; color: var(--heading); line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    article { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.45rem; font-weight: 700; color: var(--heading); margin: 3rem 0 1rem; }
+    h3 { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--heading); margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 1.25rem; }
+    .disclaimer { background: #fff8e1; border-left: 3px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 0 4px 4px 0; margin: 2rem 0; font-size: 0.9rem; color: #78580a; }
+    .rule { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; padding: 1.5rem; margin: 1.5rem 0; }
+    .rule h3 { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--heading); margin: 0 0 0.5rem; font-size: 1rem; }
+    .rule p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+    blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; color: var(--muted); font-style: italic; background: var(--surface); }
+    .cta-box { background: var(--accent); color: white; border-radius: 6px; padding: 2.5rem; text-align: center; margin: 4rem 0 2rem; }
+    .cta-box h3 { font-family: 'Syne', sans-serif; font-size: 1.4rem; color: white; margin: 0 0 0.75rem; }
+    .cta-box p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background: white; color: var(--accent); font-weight: 700; padding: 0.85rem 2rem; border-radius: 3px; text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) { nav { display: none; } .hero, article { padding-left: 1.25rem; padding-right: 1.25rem; } }
+  </style>
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="AssistantJuridique.ai" />
+  <meta property="og:title" content="Checklist RGPD pour PME : les 10 points à vérifier, d&#x27;après la CNIL" />
+  <meta property="og:description" content="Les 7 étapes de la check-list CNIL pour TPE et PME, regroupées en 10 points concrets : fichiers, durées de conservation, registre, droits, sécurité et limites." />
+  <meta property="og:url" content="https://assistantjuridique.ai/checklist-rgpd-pme-10-points.html" />
+  <meta property="article:published_time" content="2026-10-10" />
+  <meta property="article:modified_time" content="2026-10-10" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Checklist RGPD pour PME : les 10 points à vérifier, d&#x27;après la CNIL" />
+  <meta name="twitter:description" content="Les 7 étapes de la check-list CNIL pour TPE et PME, regroupées en 10 points concrets : fichiers, durées de conservation, registre, droits, sécurité et limites." />
+  <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Checklist RGPD pour PME : les 10 points à vérifier, d'après la CNIL", "description": "Les 7 étapes de la check-list CNIL pour TPE et PME, regroupées en 10 points concrets : fichiers, durées de conservation, registre, droits, sécurité et limites.", "inLanguage": "fr-FR", "mainEntityOfPage": "https://assistantjuridique.ai/checklist-rgpd-pme-10-points.html", "datePublished": "2026-10-10", "dateModified": "2026-10-10", "author": {"@type": "Organization", "name": "AssistantJuridique.ai", "url": "https://assistantjuridique.ai/"}, "publisher": {"@type": "Organization", "name": "AssistantJuridique.ai", "url": "https://assistantjuridique.ai/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://assistantjuridique.ai/"}, {"@type": "ListItem", "position": 2, "name": "Checklist RGPD pour PME : les 10 points à vérifier, d'après la CNIL", "item": "https://assistantjuridique.ai/checklist-rgpd-pme-10-points.html"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Une PME doit-elle tenir un registre des traitements ?", "acceptedAnswer": {"@type": "Answer", "text": "La check-list de la CNIL pour TPE et PME en fait la septième étape et indique que la CNIL peut le demander. Les règles de dispense dépendent de la taille et des traitements : vérifiez votre situation auprès de la CNIL."}}, {"@type": "Question", "name": "Combien de temps pour répondre à une demande d'accès ?", "acceptedAnswer": {"@type": "Answer", "text": "La CNIL indique un délai maximal d'un mois pour répondre aux droits d'accès, de rectification et d'opposition."}}, {"@type": "Question", "name": "Cette check-list suffit-elle pour être conforme ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. La CNIL précise que la remplir ne garantit pas la conformité au RGPD, et qu'elle ne traite pas les sous-traitants, les violations de données ni le DPO."}}]}]</script>
+  <style id="seo-extra">
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border,#ddd)}
+.related h2{margin-top:0}
+.related ul{list-style:none;padding:0;margin:0;display:grid;gap:.75rem}
+.related a{display:block;padding:1rem 1.25rem;background:var(--surface,#fff);border:1px solid var(--border,#ddd);border-radius:4px;color:var(--accent,#1a3a5c);text-decoration:none;font-weight:600}
+.related a:hover{border-color:var(--accent,#1a3a5c)}
+</style>
+</head>
+<body>
+<header>
+  <a href="/" class="logo">assistant<span>juridique</span>.ai</a>
+  <nav><a href="/">Accueil</a><a href="/#newsletter">Newsletter</a></nav>
+</header>
+<div class="hero">
+  <div class="tag">RGPD</div>
+  <h1>Checklist RGPD pour PME : les 10 points à vérifier, d'après la CNIL</h1>
+  <p class="meta">Octobre 2026 &nbsp;·&nbsp; 8 min de lecture</p>
+</div>
+<article>
+
+  <p>Une PME n'a pas besoin d'un service juridique pour démarrer sa mise en conformité RGPD : la CNIL publie une <a href="https://www.CNIL.fr/sites/cnil/files/atoms/files/check-list_rgpd_pour_les_tpe-pme.pdf" style="color:var(--accent)">check-list en sept étapes</a> pour les TPE et PME. Voici ces étapes, regroupées en dix points concrets, avec ce que la CNIL demande et ce que l'IA peut faire pour vous gagner du temps.</p>
+  <p><strong>Avertissement :</strong> contenu informatif, non constitutif de conseil juridique. La CNIL précise elle-même que remplir sa check-list ne garantit pas la conformité au RGPD.</p>
+
+  <h2>Étape 1 : cartographier vos données (points 1 à 5)</h2>
+  <p>La CNIL commence par un inventaire. Chaque point ci-dessous se traite fichier par fichier : recrutement, paie, clients, prospects, fournisseurs.</p>
+  <ul style="margin:0 0 1.25rem 1.25rem"><li style="margin-bottom:.5rem"><strong>1. Identifier vos fichiers</strong> : listez tous les endroits où vous enregistrez des données de personnes (tableurs, logiciel de paie, CRM, boîte de réception).</li><li style="margin-bottom:.5rem"><strong>2. Les trier</strong> par nature (RH, clients, prospects, prestataires).</li><li style="margin-bottom:.5rem"><strong>3. Noter l'objectif de chaque fichier</strong> : gestion des factures, fidélisation, paie. Un fichier sans objectif clair est un signal d'alerte.</li><li style="margin-bottom:.5rem"><strong>4. Lister les informations enregistrées</strong> et vérifier qu'elles sont indispensables : la CNIL demande de supprimer, et de ne plus demander, celles qui ne le sont pas.</li><li style="margin-bottom:.5rem"><strong>5. Identifier qui a besoin d'y accéder</strong> : employés, partenaires, prestataires. Réservez l'accès à ceux qui en ont l'usage.</li></ul>
+
+
+  <h2>Étape 2 : fixer les règles (points 6 et 7)</h2>
+  <ul style="margin:0 0 1.25rem 1.25rem"><li style="margin-bottom:.5rem"><strong>6. Définir une durée de conservation</strong> pour chaque type d'information et ne pas la dépasser. Sans date de suppression prévue, les données s'accumulent.</li><li style="margin-bottom:.5rem"><strong>7. Tenir un registre des activités de traitement</strong>, avec une fiche par traitement de données. La CNIL peut vous le demander, c'est donc la pièce centrale de votre dossier.</li></ul>
+
+
+  <h2>Étape 3 : respecter les personnes (points 8 à 10)</h2>
+  <ul style="margin:0 0 1.25rem 1.25rem"><li style="margin-bottom:.5rem"><strong>8. Informer</strong> les clients, fournisseurs et salariés des données détenues sur eux, de la finalité, des personnes qui y ont accès et de la durée de conservation. La CNIL met à disposition des modèles de mentions d'information.</li><li style="margin-bottom:.5rem"><strong>9. Répondre aux droits d'accès, de rectification et d'opposition</strong> dans un délai maximal d'un mois. L'absence de réponse peut être sanctionnée.</li><li style="margin-bottom:.5rem"><strong>10. Sécuriser et sensibiliser</strong> : mises à jour, mots de passe forts, sauvegardes régulières, rangement sécurisé des documents sensibles, et information de vos salariés sur ces enjeux.</li></ul>
+
+
+  <h2>Ce que cette check-list ne couvre pas</h2>
+  <p>Le document de la CNIL ne traite ni des sous-traitants, ni des violations de données, ni du délégué à la protection des données (DPO). Ce sont pourtant des sujets courants en PME : hébergeur, logiciel de paie, prestataire d'emailing.</p>
+  <p>En cas de violation de données présentant un risque pour les personnes, le RGPD (article 33) impose de la notifier à la CNIL dans les 72 heures. Préparez en amont qui prévient qui. Pour les sous-traitants et le DPO, consultez les fiches de la CNIL ou un juriste : je ne détaille pas ici ce que la source ne couvre pas.</p>
+
+
+  <h2>Où l'IA peut vous aider, et où elle ne suffit pas</h2>
+  <ul style="margin:0 0 1.25rem 1.25rem"><li style="margin-bottom:.5rem"><strong>Utile :</strong> produire un premier brouillon de fiche de registre à partir d'une description de traitement, reformuler une mention d'information en langage clair, préparer un modèle de réponse à une demande d'accès.</li><li style="margin-bottom:.5rem"><strong>Insuffisant :</strong> décider de la durée de conservation applicable, qualifier un traitement sensible ou un sous-traitant, répondre à un contrôle. Relisez toujours avec les fiches CNIL et, pour les cas à risque, un avocat.</li></ul>
+  <p>Pour aller plus loin, lisez notre article sur <a href="/batch2-article-2-rgpd-pme-obligations.html" style="color:var(--accent)">les 5 obligations RGPD que beaucoup de PME ignorent</a> et celui sur <a href="/article-3-cgv-mentions-legales-rgpd-ia.html" style="color:var(--accent)">la génération de CGV et de mentions légales avec l'IA</a>.</p>
+
+  <h2>Questions fréquentes</h2>
+  <h3>Une PME doit-elle tenir un registre des traitements ?</h3>
+  <p>La check-list de la CNIL pour TPE et PME en fait la septième étape et indique que la CNIL peut le demander. Les règles de dispense dépendent de la taille et des traitements : vérifiez votre situation auprès de la CNIL.</p>
+  <h3>Combien de temps pour répondre à une demande d'accès ?</h3>
+  <p>La CNIL indique un délai maximal d'un mois pour répondre aux droits d'accès, de rectification et d'opposition.</p>
+  <h3>Cette check-list suffit-elle pour être conforme ?</h3>
+  <p>Non. La CNIL précise que la remplir ne garantit pas la conformité au RGPD, et qu'elle ne traite pas les sous-traitants, les violations de données ni le DPO.</p>
+
+  <div class="cta-box">
+    <h3>L'IA juridique expliquée chaque semaine</h3>
+    <p>RH, RGPD, conformité — sans jargon.</p>
+    <a href="/" class="btn">Rejoindre la newsletter →</a>
+  </div>
+
+  <section class="related" aria-label="À lire aussi"><h2>À lire aussi</h2><ul><li><a href="/batch2-article-2-rgpd-pme-obligations.html">RGPD et PME : les 5 obligations que beaucoup ignorent encore</a></li><li><a href="/article-3-cgv-mentions-legales-rgpd-ia.html">CGV, mentions légales, RGPD : générer ses documents juridiques avec l'IA</a></li><li><a href="/batch3-article-5-protection-donnees-rh-pme.html">Protection des données personnelles en RH : ce que les PME doivent savoir</a></li></ul></section>
+
+</article>
+<footer><p>© 2026 AssistantJuridique.ai — Tous droits réservés &nbsp;·&nbsp; Contenu informatif, non constitutif de conseil juridique</p></footer>
+</body>
+</html>
