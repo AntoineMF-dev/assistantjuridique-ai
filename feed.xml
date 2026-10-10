@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>AssistantJuridique.ai</title>
+  <link>https://assistantjuridique.ai/</link>
+  <description>L&#x27;IA juridique expliquée simplement pour les TPE et PME : contrats, RGPD, RH.</description>
+  <language>fr-FR</language>
+  <atom:link href="https://assistantjuridique.ai/feed.xml" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Sat, 10 Oct 2026 08:00:00 +0000</lastBuildDate>
+  <item>
+    <title>Checklist RGPD pour PME : les 10 points à vérifier, d&#x27;après la CNIL</title>
+    <link>https://assistantjuridique.ai/checklist-rgpd-pme-10-points</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/checklist-rgpd-pme-10-points</guid>
+    <pubDate>Sat, 10 Oct 2026 08:00:00 +0000</pubDate>
+    <description>Les 7 étapes de la check-list CNIL pour TPE et PME, regroupées en 10 points concrets : fichiers, durées de conservation, registre, droits, sécurité et limites.</description>
+  </item>
+  <item>
+    <title>Signature électronique : quel niveau (simple, avancée, qualifiée) pour quel contrat ?</title>
+    <link>https://assistantjuridique.ai/signature-electronique-quel-niveau-par-contrat</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/signature-electronique-quel-niveau-par-contrat</guid>
+    <pubDate>Sat, 10 Oct 2026 08:00:00 +0000</pubDate>
+    <description>Les trois niveaux de signature électronique eIDAS, leur valeur juridique en France et le niveau adapté selon le type de document, avec les limites de l&#x27;analyse.</description>
+  </item>
+  <item>
+    <title>L&#x27;IA peut-elle rédiger vos statuts de société ? Test complet</title>
+    <link>https://assistantjuridique.ai/ia-rediger-statuts-societe</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/ia-rediger-statuts-societe</guid>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
+    <description>Test complet de la rédaction de statuts de société par IA : SAS, SARL, ce qui est bien géré, les angles morts, et ce qu&#x27;il faut toujours faire valider.</description>
+  </item>
+  <item>
+    <title>Protection des données personnelles en RH : ce que les PME doivent savoir</title>
+    <link>https://assistantjuridique.ai/protection-donnees-rh-pme</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/protection-donnees-rh-pme</guid>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
+    <description>RGPD et RH en PME : quelles données peuvent être collectées sur les salariés, comment les protéger, et ce que l&#x27;IA peut faire pour vous aider à être conforme.</description>
+  </item>
+  <item>
+    <title>Signature électronique et valeur juridique en France : ce que dit la loi</title>
+    <link>https://assistantjuridique.ai/signature-electronique-valeur-juridique</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/signature-electronique-valeur-juridique</guid>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
+    <description>La signature électronique est-elle valable en France ? Types de signatures, cadre légal, outils et cas où le papier reste obligatoire.</description>
+  </item>
+  <item>
+    <title>Sous-traitance et responsabilité : les clauses que l&#x27;IA oublie souvent</title>
+    <link>https://assistantjuridique.ai/sous-traitance-responsabilite-clauses</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/sous-traitance-responsabilite-clauses</guid>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
+    <description>Les contrats de sous-traitance générés par IA manquent souvent de clauses critiques sur la responsabilité. Ce qu&#x27;il faut vérifier avant de signer.</description>
+  </item>
+  <item>
+    <title>L&#x27;IA peut-elle analyser un bail commercial ? Test et limites</title>
+    <link>https://assistantjuridique.ai/bail-commercial-ia</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/bail-commercial-ia</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Test concret de l&#x27;analyse d&#x27;un bail commercial par IA : ce qu&#x27;elle détecte bien, ce qu&#x27;elle rate, et pourquoi ce document reste sensible.</description>
+  </item>
+  <item>
+    <title>Contrat de freelance : ce que l&#x27;IA rédige bien et ce qu&#x27;elle rate</title>
+    <link>https://assistantjuridique.ai/contrat-freelance-ia</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/contrat-freelance-ia</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Test concret de l&#x27;IA sur les contrats freelance : clauses bien gérées, angles morts, et ce qu&#x27;il faut toujours faire relire par un professionnel.</description>
+  </item>
+  <item>
+    <title>Comment l&#x27;IA aide les avocats à facturer moins cher leurs clients</title>
+    <link>https://assistantjuridique.ai/ia-avocats-facturer-moins-cher</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/ia-avocats-facturer-moins-cher</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 +0000</pubDate>
+    <description>L&#x27;IA transforme le travail des avocats : moins de temps sur les tâches documentaires, plus de valeur pour le client. Ce que ça change pour vos honoraires.</description>
+  </item>
+  <item>
+    <title>Licenciement : ce que l&#x27;IA peut préparer, ce que l&#x27;avocat doit faire</title>
+    <link>https://assistantjuridique.ai/licenciement-ia-avocat</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/licenciement-ia-avocat</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Procédure de licenciement et IA : répartition des rôles, documents automatisables, étapes critiques qui nécessitent un avocat. Guide pratique pour PME.</description>
+  </item>
+  <item>
+    <title>Les outils IA juridiques testés en 2025 : comparatif honnête</title>
+    <link>https://assistantjuridique.ai/outils-ia-juridiques-2025</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/outils-ia-juridiques-2025</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Comparatif des principaux outils IA juridiques disponibles en France en 2025 : forces, faiblesses, tarifs, et pour qui ils sont adaptés.</description>
+  </item>
+  <item>
+    <title>RGPD et PME : les 5 obligations que beaucoup ignorent encore</title>
+    <link>https://assistantjuridique.ai/rgpd-pme-obligations</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/rgpd-pme-obligations</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 +0000</pubDate>
+    <description>RGPD en PME : les 5 obligations méconnues qui exposent à des sanctions. Ce que vous devez mettre en place, et comment l&#x27;IA peut vous aider à y répondre.</description>
+  </item>
+  <item>
+    <title>CGV, mentions légales, RGPD : générer ses documents juridiques avec l&#x27;IA</title>
+    <link>https://assistantjuridique.ai/cgv-mentions-legales-rgpd-ia</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/cgv-mentions-legales-rgpd-ia</guid>
+    <pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Guide pratique pour générer vos CGV, mentions légales et politique RGPD avec l&#x27;IA. Ce qui est possible, les précautions à prendre, les outils recommandés.</description>
+  </item>
+  <item>
+    <title>L&#x27;IA juridique peut-elle rédiger vos contrats ? Ce que dit vraiment la loi</title>
+    <link>https://assistantjuridique.ai/ia-juridique-rediger-contrats</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/ia-juridique-rediger-contrats</guid>
+    <pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
+    <description>L&#x27;IA peut-elle rédiger des contrats valides ? Ce qu&#x27;elle fait bien, ses limites légales et comment l&#x27;utiliser sans prendre de risques.</description>
+  </item>
+  <item>
+    <title>Les limites de l&#x27;IA juridique : ce qu&#x27;elle ne remplacera jamais</title>
+    <link>https://assistantjuridique.ai/limites-ia-juridique</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/limites-ia-juridique</guid>
+    <pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Les limites réelles de l&#x27;IA juridique : ce qu&#x27;elle ne peut pas faire, pourquoi, et ce que cela implique pour votre entreprise.</description>
+  </item>
+  <item>
+    <title>Comment une PME peut réduire sa facture juridique avec l&#x27;IA</title>
+    <link>https://assistantjuridique.ai/pme-reduire-facture-juridique-ia</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/pme-reduire-facture-juridique-ia</guid>
+    <pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
+    <description>Comment une PME réduit ses coûts juridiques avec l&#x27;IA : tâches à déléguer, celles à garder pour l&#x27;avocat, et économies réalistes.</description>
+  </item>
+  <item>
+    <title>5 tâches juridiques que l&#x27;IA fait déjà mieux qu&#x27;un assistant RH</title>
+    <link>https://assistantjuridique.ai/taches-juridiques-ia-assistant-rh</link>
+    <guid isPermaLink="true">https://assistantjuridique.ai/taches-juridiques-ia-assistant-rh</guid>
+    <pubDate>Sat, 15 Aug 2026 08:00:00 +0000</pubDate>
+    <description>L&#x27;IA juridique peut déjà surpasser un assistant RH sur 5 tâches précises : rédaction de contrats, veille légale, RGPD, clauses types, analyse documentaire.</description>
+  </item>
+</channel>
+</rss>
