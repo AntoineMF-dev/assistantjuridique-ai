@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registre des traitements RGPD : qui doit le tenir et comment le remplir</title>
+  <meta name="description" content="Le registre des activités de traitement expliqué pour les PME : l&#x27;exception des moins de 250 salariés, le contenu d&#x27;une fiche selon l&#x27;article 30 du RGPD, le modèle de la CNIL et ce que l&#x27;IA peut préparer." />
+  <link rel="canonical" href="https://assistantjuridique.ai/registre-traitements-rgpd-pme" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --bg: #f7f6f2; --surface: #ffffff; --border: #e2dfd6; --accent: #1a3a5c; --accent-light: rgba(26,58,92,0.08); --text: #2c2c2c; --muted: #888; --heading: #111; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; font-size: 17px; line-height: 1.75; }
+    header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: var(--accent); text-decoration: none; }
+    .logo span { color: #888; font-weight: 400; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; margin-left: 2rem; }
+    .hero { max-width: 760px; margin: 4rem auto 0; padding: 0 2rem; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 2px; margin-bottom: 1.5rem; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.75rem); font-weight: 800; color: var(--heading); line-height: 1.15; letter-spacing: -0.03em; margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    article { max-width: 760px; margin: 0 auto; padding: 0 2rem 6rem; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.45rem; font-weight: 700; color: var(--heading); margin: 3rem 0 1rem; }
+    h3 { font-family: 'Syne', sans-serif; font-size: 1.05rem; font-weight: 600; color: var(--heading); margin: 2rem 0 0.75rem; }
+    p { margin-bottom: 1.25rem; }
+    .disclaimer { background: #fff8e1; border-left: 3px solid #f59e0b; padding: 1rem 1.5rem; border-radius: 0 4px 4px 0; margin: 2rem 0; font-size: 0.9rem; color: #78580a; }
+    .rule { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 4px 4px 0; padding: 1.5rem; margin: 1.5rem 0; }
+    .rule h3 { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--heading); margin: 0 0 0.5rem; font-size: 1rem; }
+    .rule p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+    blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 2rem 0; color: var(--muted); font-style: italic; background: var(--surface); }
+    .cta-box { background: var(--accent); color: white; border-radius: 6px; padding: 2.5rem; text-align: center; margin: 4rem 0 2rem; }
+    .cta-box h3 { font-family: 'Syne', sans-serif; font-size: 1.4rem; color: white; margin: 0 0 0.75rem; }
+    .cta-box p { color: rgba(255,255,255,0.75); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .btn { display: inline-block; background: white; color: var(--accent); font-weight: 700; padding: 0.85rem 2rem; border-radius: 3px; text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 640px) { nav { display: none; } .hero, article { padding-left: 1.25rem; padding-right: 1.25rem; } }
+  </style>
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="AssistantJuridique.ai" />
+  <meta property="og:title" content="Registre des traitements RGPD : qui doit le tenir et comment le remplir" />
+  <meta property="og:description" content="Le registre des activités de traitement expliqué pour les PME : l&#x27;exception des moins de 250 salariés, le contenu d&#x27;une fiche selon l&#x27;article 30 du RGPD, le modèle de la CNIL et ce que l&#x27;IA peut préparer." />
+  <meta property="og:url" content="https://assistantjuridique.ai/registre-traitements-rgpd-pme" />
+  <meta property="article:published_time" content="2026-10-10" />
+  <meta property="article:modified_time" content="2026-10-10" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Registre des traitements RGPD : qui doit le tenir et comment le remplir" />
+  <meta name="twitter:description" content="Le registre des activités de traitement expliqué pour les PME : l&#x27;exception des moins de 250 salariés, le contenu d&#x27;une fiche selon l&#x27;article 30 du RGPD, le modèle de la CNIL et ce que l&#x27;IA peut préparer." />
+  <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Registre des traitements RGPD : qui doit le tenir et comment le remplir", "description": "Le registre des activités de traitement expliqué pour les PME : l'exception des moins de 250 salariés, le contenu d'une fiche selon l'article 30 du RGPD, le modèle de la CNIL et ce que l'IA peut préparer.", "inLanguage": "fr-FR", "mainEntityOfPage": "https://assistantjuridique.ai/registre-traitements-rgpd-pme", "datePublished": "2026-10-10", "dateModified": "2026-10-10", "image": "https://assistantjuridique.ai/og-image.png", "author": {"@type": "Organization", "name": "AssistantJuridique.ai", "url": "https://assistantjuridique.ai/"}, "publisher": {"@type": "Organization", "name": "AssistantJuridique.ai", "url": "https://assistantjuridique.ai/"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://assistantjuridique.ai/"}, {"@type": "ListItem", "position": 2, "name": "Registre des traitements RGPD : qui doit le tenir et comment le remplir", "item": "https://assistantjuridique.ai/registre-traitements-rgpd-pme"}]}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Une PME de 10 salariés doit-elle tenir un registre ?", "acceptedAnswer": {"@type": "Answer", "text": "En pratique oui, au moins pour ses traitements réguliers comme la paie ou le fichier clients, car la dispense de l'article 30 ne couvre que les traitements occasionnels, sans risque et sans données sensibles."}}, {"@type": "Question", "name": "Le registre doit-il être envoyé à la CNIL ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Il est tenu en interne et présenté à la CNIL sur demande, notamment lors d'un contrôle."}}, {"@type": "Question", "name": "Existe-t-il un modèle officiel ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, la CNIL propose un modèle de registre simplifié au format tableur, à télécharger sur cnil.fr."}}]}]</script>
+  <style id="seo-extra">
+.related{margin:3rem 0 2rem;padding-top:2rem;border-top:1px solid var(--border,#ddd)}
+.related h2{margin-top:0}
+.related ul{list-style:none;padding:0;margin:0;display:grid;gap:.75rem}
+.related a{display:block;padding:1rem 1.25rem;background:var(--surface,#fff);border:1px solid var(--border,#ddd);border-radius:4px;color:var(--accent,#1a3a5c);text-decoration:none;font-weight:600}
+.related a:hover{border-color:var(--accent,#1a3a5c)}
+</style>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#f7f6f2" />
+  <meta property="og:image" content="https://assistantjuridique.ai/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://assistantjuridique.ai/og-image.png" />
+  <link rel="alternate" type="application/rss+xml" title="AssistantJuridique.ai" href="https://assistantjuridique.ai/feed.xml" />
+  <meta name="robots" content="max-image-preview:large" />
+
+<style>
+.nl-inline{margin:2rem 0;padding:1rem 1.25rem;border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:6px;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;justify-content:space-between}
+.nl-inline p{margin:0!important;font-size:.95rem}
+.nl-inline a{font-weight:700;color:var(--accent);text-decoration:none;white-space:nowrap}
+.share{margin:1.5rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;font-size:.85rem;color:var(--muted)}
+.share a,.share button{border:1px solid var(--border);border-radius:4px;padding:.35rem .7rem;color:inherit;text-decoration:none;background:none;font:inherit;cursor:pointer}
+.share a:hover,.share button:hover{color:var(--accent);border-color:var(--accent)}
+.sister{max-width:720px;margin:0 auto 2.5rem;padding:1.25rem 1.5rem;border:1px solid var(--border);border-radius:8px;font-size:.9rem;color:var(--muted)}
+.sister strong{color:var(--heading)}
+.sister a{color:var(--accent);font-weight:600;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <a href="/" class="logo">assistant<span>juridique</span>.ai</a>
+  <nav><a href="/">Accueil</a><a href="/#newsletter">Newsletter</a></nav>
+</header>
+<div class="hero">
+  <div class="tag">RGPD</div>
+  <h1>Registre des traitements RGPD : qui doit le tenir et comment le remplir</h1>
+  <p class="meta">Octobre 2026 &nbsp;·&nbsp; 6 min de lecture</p>
+</div>
+<article>
+
+  <p>Le registre des activités de traitement est la pièce centrale de la conformité RGPD : c'est lui que la CNIL demande en premier en cas de contrôle. Beaucoup de PME pensent en être dispensées. En pratique, c'est rarement le cas.</p>
+  <p><strong>Avertissement :</strong> contenu informatif, non constitutif de conseil juridique. Pour un traitement sensible ou un doute sur votre situation, consultez la CNIL ou un professionnel du droit.</p>
+
+  <h2>Qui doit tenir un registre ?</h2>
+  <p>L'article 30 du <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679" style="color:var(--accent)" rel="nofollow">RGPD</a> prévoit une dispense pour les organismes de moins de 250 salariés, mais elle est très étroite. Elle tombe dès que le traitement :</p>
+  <ul style="margin:0 0 1.25rem 1.25rem"><li style="margin-bottom:.5rem">n'est pas occasionnel ;</li><li style="margin-bottom:.5rem">est susceptible de comporter un risque pour les droits et libertés des personnes ;</li><li style="margin-bottom:.5rem">porte sur des données sensibles (santé, opinions…) ou sur des condamnations pénales.</li></ul>
+  <p>Or la paie, la gestion du personnel ou le fichier clients sont des traitements réguliers. Une PME qui a des salariés ou des clients doit donc, en pratique, tenir un registre au moins pour ces traitements. La <a href="https://www.cnil.fr/fr/RGPD-le-registre-des-activites-de-traitement" style="color:var(--accent)" rel="nofollow">CNIL</a> rappelle d'ailleurs que le registre concerne tous les organismes, quelle que soit leur taille.</p>
+
+  <div class="nl-inline"><p>📋 Offert à l'inscription : la <strong>checklist RGPD PME en 10 points</strong> (PDF), puis un sujet juridique décrypté chaque semaine.</p><a href="https://03124398.sibforms.com/serve/MUIFAL8d9xZfgujCjhQGCJmMZ9V0wgnrwgrhcjEPey_OI-Xbxig0J4SM1Z-A8h9krJsP7XbY0qs30Nkv5bmXpMSErhHZf06ZeuPOxR4fN6o2_Mlw_7eiXLA3wLdu2maPaCw3KCZ9qUg7fR3CQepl0yPxfBZMgRFHrIMikEQcTceScrc4BjONu1edGXQ-XzIm8dcP55fzFPMKeyXCuw==" target="_blank" rel="noopener">Recevoir la checklist →</a></div>
+  <h2>Que contient une fiche de traitement ?</h2>
+  <p>Le registre se compose d'une fiche par traitement (par exemple « paie », « gestion des clients », « recrutement »). Chaque fiche indique, selon l'article 30 :</p>
+  <div style="overflow-x:auto;margin:1.5rem 0"><table style="border-collapse:collapse;width:100%;font-size:.95rem"><tr><th style="text-align:left;padding:.5rem;border-bottom:1px solid var(--border)">Rubrique</th><th style="text-align:left;padding:.5rem;border-bottom:1px solid var(--border)">Exemple pour un fichier clients</th></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Responsable du traitement et ses coordonnées</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Votre société, l'adresse et le contact RGPD</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Finalités</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Gestion des commandes, facturation, suivi de la relation client</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Catégories de personnes concernées</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Clients, contacts chez les clients</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Catégories de données</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Identité, coordonnées, historique de commandes</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Destinataires</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Service commercial, comptabilité, prestataire de facturation</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Transferts hors Union européenne</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Le cas échéant, avec les garanties prévues</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Délais d'effacement</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">À définir pour chaque catégorie de données</td></tr><tr><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Mesures de sécurité</td><td style="padding:.5rem;border-bottom:1px solid var(--border);vertical-align:top">Description générale : accès restreints, sauvegardes…</td></tr></table></div>
+
+  <h2>Utiliser le modèle de la CNIL</h2>
+  <p>La CNIL propose un <a href="https://www.cnil.fr/fr/rgpd-et-tpepme-un-nouveau-modele-de-registre-plus-simple-et-plus-didactique" style="color:var(--accent)" rel="nofollow">modèle de registre simplifié</a> au format tableur, conçu pour les TPE et PME. Il couvre le socle exigé par l'article 30. Ses anciennes versions RTF et PDF ne sont plus mises à jour : téléchargez la version actuelle sur cnil.fr.</p>
+  <p>Le format du registre est libre (papier ou électronique). Une entreprise privée n'a pas à le publier, mais doit pouvoir le présenter à la CNIL.</p>
+
+  <h2>Si vous êtes aussi sous-traitant</h2>
+  <p>Si vous traitez des données pour le compte de vos clients (par exemple comme prestataire de paie, d'hébergement ou de marketing), vous devez tenir un <strong>second registre</strong> qui recense ces activités réalisées pour leur compte.</p>
+
+  <h2>Où l'IA peut vous aider, et où elle ne suffit pas</h2>
+  <ul style="margin:0 0 1.25rem 1.25rem"><li style="margin-bottom:.5rem"><strong>Utile :</strong> transformer la description d'une activité (« nous envoyons une newsletter à nos clients ») en un premier brouillon de fiche, lister les questions à poser à chaque service, harmoniser la rédaction des fiches.</li><li style="margin-bottom:.5rem"><strong>Insuffisant :</strong> fixer les durées de conservation applicables, qualifier un traitement sensible ou un transfert hors UE. Relisez toujours avec les fiches de la CNIL.</li></ul>
+  <p>Pour démarrer, suivez notre <a href="/checklist-rgpd-pme-10-points" style="color:var(--accent)">checklist RGPD pour PME en 10 points</a> : le registre en est le point 7. Lisez aussi <a href="/rgpd-pme-obligations" style="color:var(--accent)">les 5 obligations RGPD que beaucoup de PME ignorent</a>.</p>
+
+  <h2>Questions fréquentes</h2>
+  <h3>Une PME de 10 salariés doit-elle tenir un registre ?</h3>
+  <p>En pratique oui, au moins pour ses traitements réguliers comme la paie ou le fichier clients, car la dispense de l'article 30 ne couvre que les traitements occasionnels, sans risque et sans données sensibles.</p>
+  <h3>Le registre doit-il être envoyé à la CNIL ?</h3>
+  <p>Non. Il est tenu en interne et présenté à la CNIL sur demande, notamment lors d'un contrôle.</p>
+  <h3>Existe-t-il un modèle officiel ?</h3>
+  <p>Oui, la CNIL propose un modèle de registre simplifié au format tableur, à télécharger sur cnil.fr.</p>
+
+
+  <div class="cta-box">
+    <h3>L'IA juridique expliquée chaque semaine</h3>
+    <p>RH, RGPD, conformité — sans jargon.</p>
+    <a href="https://03124398.sibforms.com/serve/MUIFAL8d9xZfgujCjhQGCJmMZ9V0wgnrwgrhcjEPey_OI-Xbxig0J4SM1Z-A8h9krJsP7XbY0qs30Nkv5bmXpMSErhHZf06ZeuPOxR4fN6o2_Mlw_7eiXLA3wLdu2maPaCw3KCZ9qUg7fR3CQepl0yPxfBZMgRFHrIMikEQcTceScrc4BjONu1edGXQ-XzIm8dcP55fzFPMKeyXCuw==" target="_blank" rel="noopener" class="btn">Recevoir la checklist RGPD offerte →</a>
+  </div>
+  <div class="share" aria-label="Partager cet article">Partager : <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fassistantjuridique.ai%2Fregistre-traitements-rgpd-pme" target="_blank" rel="noopener">LinkedIn</a> <a href="https://x.com/intent/post?url=https%3A%2F%2Fassistantjuridique.ai%2Fregistre-traitements-rgpd-pme&amp;text=Registre%20des%20traitements%20RGPD%20%3A%20qui%20doit%20le%20tenir%20et%20comment%20le%20remplir" target="_blank" rel="noopener">X</a> <a href="https://wa.me/?text=Registre%20des%20traitements%20RGPD%20%3A%20qui%20doit%20le%20tenir%20et%20comment%20le%20remplir%20https%3A%2F%2Fassistantjuridique.ai%2Fregistre-traitements-rgpd-pme" target="_blank" rel="noopener">WhatsApp</a> <a href="mailto:?subject=Registre%20des%20traitements%20RGPD%20%3A%20qui%20doit%20le%20tenir%20et%20comment%20le%20remplir&amp;body=Cet%20article%20devrait%20t%27int%C3%A9resser%20%3A%20https%3A%2F%2Fassistantjuridique.ai%2Fregistre-traitements-rgpd-pme">E-mail</a> <button type="button" class="share-copy" data-url="https://assistantjuridique.ai/registre-traitements-rgpd-pme">Copier le lien</button></div>
+
+  <section class="related" aria-label="À lire aussi"><h2>À lire aussi</h2><ul><li><a href="/checklist-rgpd-pme-10-points">Checklist RGPD pour PME : les 10 points à vérifier, d&#x27;après la CNIL</a></li><li><a href="/rgpd-pme-obligations">RGPD et PME : les 5 obligations que beaucoup ignorent encore</a></li><li><a href="/protection-donnees-rh-pme">Protection des données personnelles en RH : ce que les PME doivent savoir</a></li></ul></section>
+
+</article>
+<aside class="sister" aria-label="Du même éditeur"><strong>Du même éditeur :</strong> <a href="https://agentsautonomes.ai/?utm_source=assistantjuridique.ai&amp;utm_medium=referral&amp;utm_campaign=cross" rel="noopener">AgentsAutonomes.ai</a> — Les agents IA autonomes en pratique : cas d'usage, outils et garde-fous pour les PME.</aside>
+<footer><p>© 2026 AssistantJuridique.ai — Tous droits réservés &nbsp;·&nbsp; Contenu informatif, non constitutif de conseil juridique &nbsp;·&nbsp; <a href="/mentions-legales" style="color:inherit">Mentions légales</a> &nbsp;·&nbsp; <a href="/politique-de-confidentialite" style="color:inherit">Confidentialité</a></p></footer>
+<script>
+document.querySelectorAll('.share-copy').forEach(function(b){b.addEventListener('click',function(){
+  navigator.clipboard.writeText(b.dataset.url).then(function(){b.textContent='Lien copié ✓';setTimeout(function(){b.textContent='Copier le lien'},1800)});
+});});
+</script>
+</body>
+</html>
