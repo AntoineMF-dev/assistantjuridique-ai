@@ -35,7 +35,9 @@
 # Accueil : evite la chaine /index.html -> /index -> /
 /index.html / 301
 /index / 301
-
+# Exceptions : fichier de verification Search Console et 404 servis tels quels
+/google0c2ba4aac85d0c76.html /google0c2ba4aac85d0c76.html 200
+/404.html /404.html 200
 # Regle generale : toute URL en .html -> meme URL sans extension (301).
 # Placee en DERNIER : Cloudflare applique la premiere regle qui correspond,
 # les anciens slugs (article-N-, batch2-article-N-, batch3-article-N-) ci-dessus
