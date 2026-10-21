@@ -31,3 +31,13 @@
 /batch3-article-5-protection-donnees-rh-pme /protection-donnees-rh-pme 301
 
 /confidentialite /politique-de-confidentialite 301
+
+# Accueil : evite la chaine /index.html -> /index -> /
+/index.html / 301
+/index / 301
+
+# Regle generale : toute URL en .html -> meme URL sans extension (301).
+# Placee en DERNIER : Cloudflare applique la premiere regle qui correspond,
+# les anciens slugs (article-N-, batch2-article-N-, batch3-article-N-) ci-dessus
+# redirigent donc directement vers le slug final, sans chaine.
+/*.html /:splat 301
