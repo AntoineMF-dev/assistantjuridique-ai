@@ -51,12 +51,12 @@ ARTICLES = ['rgpd-pme-obligations','checklist-rgpd-pme-10-points','registre-trai
  'signature-electronique-valeur-juridique','signature-electronique-quel-niveau-par-contrat','ia-juridique-rediger-contrats','contrat-freelance-ia','bail-commercial-ia',
  'ia-rediger-statuts-societe','sous-traitance-responsabilite-clauses','delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer',
  'facturation-electronique-pme-obligations-2026','taches-juridiques-ia-assistant-rh','licenciement-ia-avocat','limites-ia-juridique','outils-ia-juridiques-2025',
- 'pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher','rupture-conventionnelle-procedure-indemnite-cout']
+ 'pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher','rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture']
 RELATED = {
  'rgpd-pme-obligations': ['checklist-rgpd-pme-10-points','registre-traitements-rgpd-pme','protection-donnees-rh-pme'],
  'checklist-rgpd-pme-10-points': ['registre-traitements-rgpd-pme','rgpd-pme-obligations','cgv-mentions-legales-rgpd-ia'],
  'registre-traitements-rgpd-pme': ['checklist-rgpd-pme-10-points','rgpd-pme-obligations','protection-donnees-rh-pme'],
- 'protection-donnees-rh-pme': ['rgpd-pme-obligations','registre-traitements-rgpd-pme','licenciement-ia-avocat'],
+ 'protection-donnees-rh-pme': ['rgpd-pme-obligations','registre-traitements-rgpd-pme','periode-essai-cdi-duree-renouvellement-rupture'],
  'cgv-mentions-legales-rgpd-ia': ['rgpd-pme-obligations','delais-de-paiement-entre-entreprises-penalites','ia-juridique-rediger-contrats'],
  'signature-electronique-valeur-juridique': ['signature-electronique-quel-niveau-par-contrat','contrat-freelance-ia','ia-juridique-rediger-contrats'],
  'signature-electronique-quel-niveau-par-contrat': ['signature-electronique-valeur-juridique','contrat-freelance-ia','bail-commercial-ia'],
@@ -70,7 +70,8 @@ RELATED = {
  'facturation-electronique-pme-obligations-2026': ['delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer','pme-reduire-facture-juridique-ia'],
  'taches-juridiques-ia-assistant-rh': ['licenciement-ia-avocat','protection-donnees-rh-pme','rupture-conventionnelle-procedure-indemnite-cout'],
  'licenciement-ia-avocat': ['taches-juridiques-ia-assistant-rh','protection-donnees-rh-pme','rupture-conventionnelle-procedure-indemnite-cout'],
- 'rupture-conventionnelle-procedure-indemnite-cout': ['licenciement-ia-avocat','protection-donnees-rh-pme','taches-juridiques-ia-assistant-rh'],
+ 'rupture-conventionnelle-procedure-indemnite-cout': ['licenciement-ia-avocat','protection-donnees-rh-pme','periode-essai-cdi-duree-renouvellement-rupture'],
+ 'periode-essai-cdi-duree-renouvellement-rupture': ['rupture-conventionnelle-procedure-indemnite-cout','protection-donnees-rh-pme','taches-juridiques-ia-assistant-rh'],
  'limites-ia-juridique': ['outils-ia-juridiques-2025','pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher'],
  'outils-ia-juridiques-2025': ['limites-ia-juridique','taches-juridiques-ia-assistant-rh','pme-reduire-facture-juridique-ia'],
  'pme-reduire-facture-juridique-ia': ['outils-ia-juridiques-2025','ia-avocats-facturer-moins-cher','taches-juridiques-ia-assistant-rh'],
@@ -78,6 +79,7 @@ RELATED = {
 }
 # Liens contextuels souhaités (3 max par article, existants inclus)
 INLINE = {
+ 'periode-essai-cdi-duree-renouvellement-rupture': ['rupture-conventionnelle-procedure-indemnite-cout','taches-juridiques-ia-assistant-rh'],
  'rupture-conventionnelle-procedure-indemnite-cout': ['protection-donnees-rh-pme','taches-juridiques-ia-assistant-rh'],
  'rgpd-pme-obligations': ['protection-donnees-rh-pme','registre-traitements-rgpd-pme','checklist-rgpd-pme-10-points'],
  'checklist-rgpd-pme-10-points': ['rgpd-pme-obligations','cgv-mentions-legales-rgpd-ia','registre-traitements-rgpd-pme'],
