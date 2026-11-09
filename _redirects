@@ -32,6 +32,9 @@
 
 /confidentialite /politique-de-confidentialite 301
 
+# Ancienne URL newsletter -> formulaire d'inscription sur l'accueil
+/newsletter /#newsletter 301
+
 # Accueil : evite la chaine /index.html -> /index -> /
 /index.html / 301
 /index / 301
