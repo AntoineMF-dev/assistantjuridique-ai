@@ -51,7 +51,7 @@ ARTICLES = ['rgpd-pme-obligations','checklist-rgpd-pme-10-points','registre-trai
  'signature-electronique-valeur-juridique','signature-electronique-quel-niveau-par-contrat','ia-juridique-rediger-contrats','contrat-freelance-ia','bail-commercial-ia',
  'ia-rediger-statuts-societe','sous-traitance-responsabilite-clauses','delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer',
  'facturation-electronique-pme-obligations-2026','taches-juridiques-ia-assistant-rh','licenciement-ia-avocat','limites-ia-juridique','outils-ia-juridiques-2025',
- 'pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher','rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture','duree-conservation-documents-entreprise']
+ 'pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher','rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture','duree-conservation-documents-entreprise','clause-de-non-concurrence-salarie-conditions']
 RELATED = {
  'rgpd-pme-obligations': ['checklist-rgpd-pme-10-points','registre-traitements-rgpd-pme','protection-donnees-rh-pme'],
  'checklist-rgpd-pme-10-points': ['registre-traitements-rgpd-pme','rgpd-pme-obligations','cgv-mentions-legales-rgpd-ia'],
@@ -71,8 +71,9 @@ RELATED = {
  'duree-conservation-documents-entreprise': ['facturation-electronique-pme-obligations-2026','registre-traitements-rgpd-pme','delais-de-paiement-entre-entreprises-penalites'],
  'taches-juridiques-ia-assistant-rh': ['licenciement-ia-avocat','protection-donnees-rh-pme','rupture-conventionnelle-procedure-indemnite-cout'],
  'licenciement-ia-avocat': ['taches-juridiques-ia-assistant-rh','protection-donnees-rh-pme','rupture-conventionnelle-procedure-indemnite-cout'],
- 'rupture-conventionnelle-procedure-indemnite-cout': ['licenciement-ia-avocat','protection-donnees-rh-pme','periode-essai-cdi-duree-renouvellement-rupture'],
- 'periode-essai-cdi-duree-renouvellement-rupture': ['rupture-conventionnelle-procedure-indemnite-cout','protection-donnees-rh-pme','taches-juridiques-ia-assistant-rh'],
+ 'rupture-conventionnelle-procedure-indemnite-cout': ['licenciement-ia-avocat','clause-de-non-concurrence-salarie-conditions','periode-essai-cdi-duree-renouvellement-rupture'],
+ 'clause-de-non-concurrence-salarie-conditions': ['rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture','licenciement-ia-avocat'],
+ 'periode-essai-cdi-duree-renouvellement-rupture': ['rupture-conventionnelle-procedure-indemnite-cout','protection-donnees-rh-pme','clause-de-non-concurrence-salarie-conditions'],
  'limites-ia-juridique': ['outils-ia-juridiques-2025','pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher'],
  'outils-ia-juridiques-2025': ['limites-ia-juridique','taches-juridiques-ia-assistant-rh','pme-reduire-facture-juridique-ia'],
  'pme-reduire-facture-juridique-ia': ['outils-ia-juridiques-2025','ia-avocats-facturer-moins-cher','taches-juridiques-ia-assistant-rh'],
@@ -80,6 +81,7 @@ RELATED = {
 }
 # Liens contextuels souhaités (3 max par article, existants inclus)
 INLINE = {
+ 'clause-de-non-concurrence-salarie-conditions': ['rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture'],
  'duree-conservation-documents-entreprise': ['facturation-electronique-pme-obligations-2026','registre-traitements-rgpd-pme'],
  'periode-essai-cdi-duree-renouvellement-rupture': ['rupture-conventionnelle-procedure-indemnite-cout','taches-juridiques-ia-assistant-rh'],
  'rupture-conventionnelle-procedure-indemnite-cout': ['protection-donnees-rh-pme','taches-juridiques-ia-assistant-rh'],
