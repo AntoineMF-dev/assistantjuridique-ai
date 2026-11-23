@@ -51,13 +51,14 @@ ARTICLES = ['rgpd-pme-obligations','checklist-rgpd-pme-10-points','registre-trai
  'signature-electronique-valeur-juridique','signature-electronique-quel-niveau-par-contrat','ia-juridique-rediger-contrats','contrat-freelance-ia','bail-commercial-ia',
  'ia-rediger-statuts-societe','sous-traitance-responsabilite-clauses','delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer',
  'facturation-electronique-pme-obligations-2026','taches-juridiques-ia-assistant-rh','licenciement-ia-avocat','limites-ia-juridique','outils-ia-juridiques-2025',
- 'pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher','rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture','duree-conservation-documents-entreprise','clause-de-non-concurrence-salarie-conditions']
+ 'pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher','rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture','duree-conservation-documents-entreprise','clause-de-non-concurrence-salarie-conditions','mediateur-consommation-obligation-entreprise']
 RELATED = {
  'rgpd-pme-obligations': ['checklist-rgpd-pme-10-points','registre-traitements-rgpd-pme','protection-donnees-rh-pme'],
  'checklist-rgpd-pme-10-points': ['registre-traitements-rgpd-pme','rgpd-pme-obligations','cgv-mentions-legales-rgpd-ia'],
  'registre-traitements-rgpd-pme': ['checklist-rgpd-pme-10-points','rgpd-pme-obligations','protection-donnees-rh-pme'],
  'protection-donnees-rh-pme': ['rgpd-pme-obligations','registre-traitements-rgpd-pme','periode-essai-cdi-duree-renouvellement-rupture'],
- 'cgv-mentions-legales-rgpd-ia': ['rgpd-pme-obligations','delais-de-paiement-entre-entreprises-penalites','ia-juridique-rediger-contrats'],
+ 'cgv-mentions-legales-rgpd-ia': ['rgpd-pme-obligations','mediateur-consommation-obligation-entreprise','ia-juridique-rediger-contrats'],
+ 'mediateur-consommation-obligation-entreprise': ['cgv-mentions-legales-rgpd-ia','delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer'],
  'signature-electronique-valeur-juridique': ['signature-electronique-quel-niveau-par-contrat','contrat-freelance-ia','ia-juridique-rediger-contrats'],
  'signature-electronique-quel-niveau-par-contrat': ['signature-electronique-valeur-juridique','contrat-freelance-ia','bail-commercial-ia'],
  'ia-juridique-rediger-contrats': ['signature-electronique-quel-niveau-par-contrat','contrat-freelance-ia','ia-rediger-statuts-societe'],
@@ -66,7 +67,7 @@ RELATED = {
  'ia-rediger-statuts-societe': ['ia-juridique-rediger-contrats','bail-commercial-ia','sous-traitance-responsabilite-clauses'],
  'sous-traitance-responsabilite-clauses': ['contrat-freelance-ia','rgpd-pme-obligations','ia-juridique-rediger-contrats'],
  'delais-de-paiement-entre-entreprises-penalites': ['mise-en-demeure-de-payer-injonction-de-payer','facturation-electronique-pme-obligations-2026','duree-conservation-documents-entreprise'],
- 'mise-en-demeure-de-payer-injonction-de-payer': ['delais-de-paiement-entre-entreprises-penalites','facturation-electronique-pme-obligations-2026','cgv-mentions-legales-rgpd-ia'],
+ 'mise-en-demeure-de-payer-injonction-de-payer': ['delais-de-paiement-entre-entreprises-penalites','facturation-electronique-pme-obligations-2026','mediateur-consommation-obligation-entreprise'],
  'facturation-electronique-pme-obligations-2026': ['delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer','duree-conservation-documents-entreprise'],
  'duree-conservation-documents-entreprise': ['facturation-electronique-pme-obligations-2026','registre-traitements-rgpd-pme','delais-de-paiement-entre-entreprises-penalites'],
  'taches-juridiques-ia-assistant-rh': ['licenciement-ia-avocat','protection-donnees-rh-pme','rupture-conventionnelle-procedure-indemnite-cout'],
@@ -81,6 +82,7 @@ RELATED = {
 }
 # Liens contextuels souhaités (3 max par article, existants inclus)
 INLINE = {
+ 'mediateur-consommation-obligation-entreprise': ['cgv-mentions-legales-rgpd-ia','delais-de-paiement-entre-entreprises-penalites'],
  'clause-de-non-concurrence-salarie-conditions': ['rupture-conventionnelle-procedure-indemnite-cout','periode-essai-cdi-duree-renouvellement-rupture'],
  'duree-conservation-documents-entreprise': ['facturation-electronique-pme-obligations-2026','registre-traitements-rgpd-pme'],
  'periode-essai-cdi-duree-renouvellement-rupture': ['rupture-conventionnelle-procedure-indemnite-cout','taches-juridiques-ia-assistant-rh'],

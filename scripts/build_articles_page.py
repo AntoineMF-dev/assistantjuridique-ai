@@ -8,13 +8,13 @@ BASE = 'https://assistantjuridique.ai'
 THEMES = [
  ('RGPD et données personnelles', ['rgpd-pme-obligations','checklist-rgpd-pme-10-points','registre-traitements-rgpd-pme','protection-donnees-rh-pme','cgv-mentions-legales-rgpd-ia']),
  ('Signature électronique', ['signature-electronique-valeur-juridique','signature-electronique-quel-niveau-par-contrat']),
- ('Contrats et documents juridiques', ['ia-juridique-rediger-contrats','contrat-freelance-ia','bail-commercial-ia','ia-rediger-statuts-societe','sous-traitance-responsabilite-clauses']),
+ ('Contrats et documents juridiques', ['ia-juridique-rediger-contrats','contrat-freelance-ia','bail-commercial-ia','ia-rediger-statuts-societe','sous-traitance-responsabilite-clauses','mediateur-consommation-obligation-entreprise']),
  ('Facturation et paiement', ['facturation-electronique-pme-obligations-2026','delais-de-paiement-entre-entreprises-penalites','mise-en-demeure-de-payer-injonction-de-payer','duree-conservation-documents-entreprise']),
  ('IA et ressources humaines', ['clause-de-non-concurrence-salarie-conditions','periode-essai-cdi-duree-renouvellement-rupture','rupture-conventionnelle-procedure-indemnite-cout','taches-juridiques-ia-assistant-rh','licenciement-ia-avocat']),
  ('IA juridique : outils, limites et coûts', ['limites-ia-juridique','outils-ia-juridiques-2025','pme-reduire-facture-juridique-ia','ia-avocats-facturer-moins-cher']),
 ]
 TITLE = 'Tous les articles : RGPD, contrats, facturation, IA'
-DESC = "Les 25 articles d'AssistantJuridique.ai classés par thème : RGPD, signature électronique, contrats, facturation et paiement, IA et RH."
+DESC = "Les 26 articles d'AssistantJuridique.ai classés par thème : RGPD, signature électronique, contrats, facturation et paiement, IA et RH."
 assert sum(len(t[1]) for t in THEMES) == len(S.ARTICLES) and set(sum((t[1] for t in THEMES), [])) == set(S.ARTICLES)
 src = open('index.html', encoding='utf8').read()
 def css(): 
